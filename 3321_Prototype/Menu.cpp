@@ -1,6 +1,6 @@
 #include "Menu.h"
 #include <iostream>
-#include <vector>
+
 #include <string>
 enum state {
 	main_menu = 0,
@@ -12,7 +12,7 @@ enum state {
 using namespace std;
  Menu::Menu()
 {
-	 this->stateStack.push_back(main_menu);
+	
 	 this->option = 9999;
 	 this->quit = false;
 	 this->menuSize = 2;
@@ -29,7 +29,7 @@ void Menu::display_main_menu()
 	cout << "4. Filter Cards by Price" << endl;
 	cin >> this->option;
 
-	stateStack.push_back(option);
+	
 
 
 }
