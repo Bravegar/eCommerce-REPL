@@ -10,5 +10,6 @@ public:
 
 	Menu();
 	void display_main_menu();
+	void display_menu_option(int);
 };
 
