@@ -20,13 +20,12 @@ void updateIssueStatus(int user_input)
 	/*Assuming that the user_input can be 1 for true 
 	and 0 for false, it's easier to have the issue 
 	status to be a bool*/
-	 issueResolved = user_input;
+	if (user_input == 1)
+		issueResolved = true;
+	else
+		issueResolved = false;
 }
 bool getIssueResolved()
 {
 	return issueResolved;
-}
-void setIssueResolved(int user_input)
-{
-	issueResolved = user_input;
 }
