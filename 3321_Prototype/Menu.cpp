@@ -1,6 +1,7 @@
 #include "Menu.h"
 #include <iostream>
 #include <string>
+#include <vector>
 enum state {
 	main_menu = 0,
 	filter_specific_card,
@@ -8,7 +9,7 @@ enum state {
 	filter_by_rarity,
 	filter_by_price
 };
-using namespace std;
+
  Menu::Menu()
 {
 	
@@ -21,14 +22,16 @@ using namespace std;
  {
 	 while (!this->quit)
 	 {
-		 cout << "********************************************" << endl;
-		 cout << "Please select from the following options: " << endl;
-		 cout << "1. Search for a Specific Card" << endl;
-		 cout << "2. Filter Cards by Type" << endl;
-		 cout << "3. Filter Cards by Rarity" << endl;
-		 cout << "4. Filter Cards by Price" << endl;
-		 cout << "0. Quit" << endl;
-		 cin >> this->option;
+		 std::cout << "********************************************" << std::endl;
+		 std::cout << "Please select from the following options: " << std::endl;
+		 std::cout << "1. Search for a Specific Card" << std::endl;
+		 std::cout << "2. Filter Cards by Type" << std::endl;
+		 std::cout << "3. Filter Cards by Rarity" << std::endl;
+		 std::cout << "4. Filter Cards by Price" << std::endl;
+		 std::cout << "5. Add New Card for Sale" << std::endl;
+		 std::cout << "6. Display All Cards for Sale" << std::endl;
+		 std::cout << "0. Quit" << std::endl;
+		 std::cin >> this->option;
 
 		 this->display_menu_option(this->option);
 
@@ -39,23 +42,74 @@ void Menu::display_menu_option(int option)
 	switch (option)
 	{
 	default:
-		cout << "default" << endl;
+		std::cout << "default" << std::endl;
 		break;
 	case 0:
 		this->quit = true;
 		break;
 	case 1:
-		cout << 1 << endl;
+		std::cout << 1 << std::endl;
 		break;
 	case 2:
-		cout << 2 << endl;
+		std::cout << 2 << std::endl;
 		break;
 	case 3:
-		cout << 3 << endl;
+		std::cout << 3 << std::endl;
 		break;
 	case 4:
-		cout << 4 << endl;
+		std::cout << 4 << std::endl;
+		break;
+	case 5:
+		addCard();
+		break;
+	case 6:
+		display_all_cards();
 		break;
 
 	}
+}
+void Menu::display_all_cards()
+{
+	int selection;
+	for (int i = 0; i < this->test.size(); i ++ )
+	{
+		std::cout << i << ". ";
+		test[i].getPokemonName();
+		std::cout<< std::endl;
+	}
+	std::cout << "Please enter a selection..." << std::endl;
+	std::cin >> selection;
+	single_card_display(selection);
+}
+void Menu::single_card_display(int selection)
+{
+	int select;
+	test[selection].display();
+	std::cout << "1. Purchase" << std::endl;
+	std::cout << "2. Main Menu" << std::endl;
+	std::cin >> select;
+}
+void Menu::init_cards()
+{
+	for (int i = 0; i < 100; i++)
+	{
+		test.push_back(Card());
+	}
+}
+void Menu::addCard()
+{
+	int setID, cardID;
+	double price;
+	std::string name, type;
+	std::cout << "Please enter a card name..." << std::endl;
+	std::cin >> name;
+	std::cout << "Please enter a card type..." << std::endl;
+	std::cin >> type;
+	std::cout << "Please enter a card price..." << std::endl;
+	std::cin >> price;
+	std::cout << "Please enter the cards Set ID" << std::endl;
+	std::cin >> setID;
+	std::cout << "Please enter the cards Card ID" << std::endl;
+	std::cin >> cardID;
+	test.push_back(Card(setID, cardID, price, name, type));
 }
