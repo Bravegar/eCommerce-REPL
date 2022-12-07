@@ -1,5 +1,4 @@
 #include "Menu.h"
-#include "Card.h"
 #include <iostream>
 #include <string>
 enum state {
@@ -59,11 +58,4 @@ void Menu::display_menu_option(int option)
 		break;
 
 	}
-}
-void Menu::display_single_card(Card card)
-{
-	card.display();
-	cout << "Press 1. Purchase" << endl;
-	cout << "Press 2. Sell" << endl;
-	cout << "Press 3. Main Menu" << endl;
 }
