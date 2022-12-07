@@ -71,11 +71,10 @@ void Menu::display_menu_option(int option)
 void Menu::display_all_cards()
 {
 	int selection;
-	for (int i = 0; i < this->test.size(); i ++ )
+	for (int i = 0; i < this->cardList.size(); i ++ )
 	{
 		std::cout << i << ". ";
-		test[i].getPokemonName();
-		std::cout<< std::endl;
+		std::cout << cardList[i].getPokemonName() << " " << std::endl;
 	}
 	std::cout << "Please enter a selection..." << std::endl;
 	std::cin >> selection;
@@ -84,7 +83,7 @@ void Menu::display_all_cards()
 void Menu::single_card_display(int selection)
 {
 	int select;
-	test[selection].display();
+	cardList[selection].display();
 	std::cout << "1. Purchase" << std::endl;
 	std::cout << "2. Main Menu" << std::endl;
 	std::cin >> select;
@@ -93,12 +92,13 @@ void Menu::init_cards()
 {
 	for (int i = 0; i < 100; i++)
 	{
-		test.push_back(Card());
+		cardList.push_back(Card("name",20.00));
 	}
 }
 void Menu::addCard()
 {
-	int setID, cardID;
+	std::string setID;
+	int cardID;
 	double price;
 	std::string name, type;
 	std::cout << "Please enter a card name..." << std::endl;
@@ -111,5 +111,5 @@ void Menu::addCard()
 	std::cin >> setID;
 	std::cout << "Please enter the cards Card ID" << std::endl;
 	std::cin >> cardID;
-	test.push_back(Card(setID, cardID, price, name, type));
+	cardList.push_back(Card(setID, cardID, price, name, type));
 }

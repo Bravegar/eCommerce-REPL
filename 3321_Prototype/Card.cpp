@@ -4,7 +4,7 @@
 
 
 
-Card::Card(int sID, int cID, double p, std::string n, std::string t)
+Card::Card(std::string sID, int cID, double p, std::string n, std::string t)
 {
 	setID = sID;
 	cardID = cID;
@@ -12,8 +12,12 @@ Card::Card(int sID, int cID, double p, std::string n, std::string t)
 	pokemonName = n;
 	type = t;
 }
-
-void Card::setSetID(int id)
+Card::Card(std::string name, double price)
+{
+	pokemonName = name;
+	this->price = price;
+}
+void Card::setSetID(std::string id)
 {
 	setID = id;
 }
@@ -42,7 +46,7 @@ void Card::setType(std::string t)
 {
 	type = t;
 }
-int Card::getSetID()
+std::string Card::getSetID()
 {
 	return setID;
 }

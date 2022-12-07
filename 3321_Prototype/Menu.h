@@ -6,7 +6,7 @@ class Menu
 	int option;
 	bool quit;
 	int menuSize;
-	std::vector<Card> test;
+	std::vector<Card> cardList;
 
 public:
 

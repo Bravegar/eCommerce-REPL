@@ -4,7 +4,7 @@ class Card
 {
 
 
-	int setID;
+	std::string setID;
 	int cardID;
 	int cardsBeingSold;
 	double price;
@@ -22,16 +22,17 @@ public:
 		pokemonName = "";
 		type = "";
 	}
-	Card(int, int, double, std::string, std::string);
+	Card(std::string, int, double, std::string, std::string);
+	Card(std::string, double );
 	//============ accessor functions
-	int getSetID();
+	std::string getSetID();
 	int getCardID();
 	int getCardsBeingSold();
 	double getPrice();
 	std::string getPokemonName();
 	std::string getType();
 	//============ mutator functions
-	void setSetID(int);
+	void setSetID(std::string);
 	void setCardID(int);
 	void setCardsBeingSold(int);
 	void setPrice(double);
