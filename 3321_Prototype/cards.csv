@@ -1,0 +1,958 @@
+Card ID,Set ID,Price,Card Name,Type,Number Sold 
+1,BS,121.25,Alakazam,Psychic,49
+2,BS,90.54,Blastoise,Water,52
+3,BS,115.93,Chansey,Colorless,45
+4,BS,243.70,Charizard,Fire,56
+5,BS,252.16,Clefairy,Colorless,61
+6,BS,710.51,Gyarados,Water,40
+7,BS,462.17,Hitmonchan,Fighting,47
+8,BS,775.37,Machamp,Fighting,35
+9,BS,642.96,Magneton,Lightning,49
+10,BS,115.85,Mewtwo,Psychic,44
+11,BS,521.49,Nidoking,Grass,47
+12,BS,686.13,Ninetales,Fire,44
+13,BS,497.01,Poliwrath,Water,45
+14,BS,103.92,Raichu,Lightning,36
+15,BS,287.58,Venusaur,Grass,41
+16,BS,605.13,Zapdos,Lightning,54
+17,BS,157.16,Beedrill,Grass,39
+18,BS,997.41,Dragonair,Colorless,21
+19,BS,195.96,Dugtrio,Fighting,46
+20,BS,589.90,Electabuzz,Lightning,32
+21,BS,571.68,Electrode,Lightning,44
+22,BS,348.63,Pidgeotto,Colorless,36
+23,BS,327.61,Arcanine,Fire,54
+24,BS,469.45,Charmeleon,Fire,62
+25,BS,802.50,Dewgong,Water,43
+26,BS,506.71,Dratini,Colorless,44
+27,BS,26.06,Farfetch'd,Colorless,58
+28,BS,417.23,Growlithe,Fire,54
+29,BS,512.11,Haunter,Psychic,33
+30,BS,843.97,Ivysaur,Grass,42
+31,BS,128.14,Jynx,Psychic,44
+32,BS,796.20,Kadabra,Psychic,47
+33,BS,503.29,Kakuna,Grass,39
+34,BS,828.31,Machoke,Fighting,37
+35,BS,508.98,Magikarp,Water,53
+36,BS,509.43,Magmar,Fire,53
+37,BS,366.78,Nidorino,Grass,40
+38,BS,491.03,Poliwhirl,Water,37
+39,BS,153.12,Porygon,Colorless,36
+40,BS,646.36,Raticate,Colorless,48
+41,BS,480.90,Seel,Water,43
+42,BS,605.12,Wartortle,Water,44
+43,BS,44.42,Abra,Psychic,59
+44,BS,568.48,Bulbasaur,Grass,32
+45,BS,603.99,Caterpie,Grass,48
+46,BS,392.30,Charmander,Fire,59
+47,BS,951.60,Diglett,Fighting,45
+48,BS,905.12,Doduo,Colorless,42
+49,BS,593.57,Drowzee,Psychic,30
+50,BS,451.74,Gastly,Psychic,31
+51,BS,512.44,Koffing,Grass,46
+52,BS,42.97,Machop,Fighting,56
+53,BS,120.59,Magnemite,Lightning,63
+54,BS,941.53,Metapod,Grass,39
+55,BS,191.65,Nidoran M,Grass,22
+56,BS,756.11,Onix,Fighting,39
+57,BS,413.51,Pidgey,Colorless,46
+58,BS,744.41,Pikachu,Lightning,47
+59,BS,50.38,Poliwag,Water,41
+60,BS,798.73,Ponyta,Fire,56
+61,BS,793.21,Rattata,Colorless,30
+62,BS,618.56,Sandshrew,Fighting,42
+63,BS,293.46,Squirtle,Water,54
+64,BS,386.09,Starmie,Water,46
+65,BS,514.87,Staryu,Water,43
+66,BS,471.45,Tangela,Grass,37
+67,BS,757.56,Voltorb,Lightning,32
+68,BS,581.88,Vulpix,Fire,60
+69,BS,830.65,Weedle,Grass,48
+70,BS,476.32,Clefairy Doll,T,63
+71,BS,282.39,Computer Search,T,41
+72,BS,703.31,Devolution Spray,T,55
+73,BS,599.73,Imposter Professor Oak,T,36
+74,BS,923.15,Item Finder,T,34
+75,BS,305.34,Lass,T,58
+76,BS,749.76,Pokemon Breeder,T,67
+77,BS,440.98,Pokemon Trader,T,37
+78,BS,78.07,Scoop Up,T,39
+79,BS,147.45,Super Energy Removal,T,41
+80,BS,245.77,Defender,T,59
+81,BS,959.40,Energy Retrieval,T,30
+82,BS,989.84,Full Heal,T,42
+83,BS,800.94,Maintenance,T,48
+84,BS,574.19,PlusPower,T,52
+85,BS,182.06,Pokemon Center,T,45
+86,BS,999.70,Pokemon Flute,T,38
+87,BS,601.10,Pokedex,T,40
+88,BS,131.82,Professor Oak,T,38
+89,BS,88.55,Revive,T,50
+90,BS,414.37,Super Potion,T,53
+91,BS,485.39,Bill,T,58
+92,BS,48.58,Energy Removal,T,37
+93,BS,225.43,Gust of Wind,T,45
+94,BS,715.01,Potion,T,55
+95,BS,312.07,Switch,T,47
+96,BS,294.17,Double Colorless Energy,E,52
+97,BS,285.63,Fighting Energy,E,47
+98,BS,713.86,Fire Energy,E,45
+99,BS,985.60,Grass Energy,E,42
+100,BS,518.25,Lightning Energy,E,48
+101,BS,592.90,Psychic Energy,E,31
+102,BS,60.08,Water Energy,E,53
+103,JU,108.93,Clefable,Colorless,47
+104,JU,957.50,Electrode,Lightning,48
+105,JU,905.45,Flareon,Fire,51
+106,JU,137.24,Jolteon,Lightning,37
+107,JU,392.30,Kangaskhan,Colorless,52
+108,JU,217.32,Mr. Mime,Psychic,50
+109,JU,952.56,Nidoqueen,Grass,54
+110,JU,747.28,Pidgeot,Colorless,43
+111,JU,729.38,Pinsir,Grass,42
+112,JU,664.90,Scyther,Grass,35
+113,JU,87.59,Snorlax,Colorless,45
+114,JU,660.62,Vaporeon,Water,54
+115,JU,365.96,Venomoth,Grass,42
+116,JU,112.41,Victreebel,Grass,51
+117,JU,271.00,Vileplume,Grass,57
+118,JU,313.85,Wigglytuff,Colorless,44
+119,JU,588.41,Clefable,Colorless,31
+120,JU,26.72,Electrode,Lightning,50
+121,JU,712.72,Flareon,Fire,46
+122,JU,627.83,Jolteon,Lightning,52
+123,JU,617.81,Kangaskhan,Colorless,45
+124,JU,769.83,Mr. Mime,Psychic,49
+125,JU,69.57,Nidoqueen,Grass,49
+126,JU,89.68,Pidgeot,Colorless,45
+127,JU,789.78,Pinsir,Grass,53
+128,JU,191.64,Scyther,Grass,42
+129,JU,249.63,Snorlax,Colorless,33
+130,JU,416.19,Vaporeon,Water,32
+131,JU,492.39,Venomoth,Grass,41
+132,JU,817.27,Victreebel,Grass,51
+133,JU,761.75,Vileplume,Grass,48
+134,JU,48.21,Wigglytuff,Colorless,39
+135,JU,577.87,Butterfree,Grass,54
+136,JU,126.07,Dodrio,Colorless,28
+137,JU,9.05,Exeggutor,Grass,49
+138,JU,918.72,Fearow,Colorless,56
+139,JU,284.31,Gloom,Grass,43
+140,JU,288.88,Lickitung,Colorless,55
+141,JU,434.37,Marowak,Fighting,41
+142,JU,423.01,Nidorina,Grass,43
+143,JU,281.75,Parasect,Grass,45
+144,JU,119.43,Persian,Colorless,43
+145,JU,51.60,Primeape,Fighting,36
+146,JU,664.44,Rapidash,Fire,33
+147,JU,473.37,Rhydon,Fighting,42
+148,JU,85.80,Seaking,Water,45
+149,JU,404.55,Tauros,Colorless,44
+150,JU,963.28,Weepinbell,Grass,55
+151,JU,377.93,Bellsprout,Grass,50
+152,JU,765.85,Cubone,Fighting,50
+153,JU,469.14,Eevee,Colorless,46
+154,JU,435.71,Exeggcute,Grass,34
+155,JU,65.32,Goldeen,Water,42
+156,JU,433.52,Jigglypuff,Colorless,46
+157,JU,201.98,Mankey,Fighting,36
+158,JU,820.06,Meowth,Colorless,48
+159,JU,432.08,Nidoran?,Grass,27
+160,JU,100.12,Oddish,Grass,32
+161,JU,799.31,Paras,Grass,44
+162,JU,986.40,Pikachu,Lightning,60
+163,JU,37.34,Rhyhorn,Fighting,44
+164,JU,324.60,Spearow,Colorless,49
+165,JU,534.39,Venonat,Grass,48
+166,JU,533.32,Poké Ball,T,47
+167,FO,512.32,Aerodactyl,Fighting,29
+168,FO,181.58,Articuno,Water,19
+169,FO,483.73,Ditto,Colorless,49
+170,FO,183.74,Dragonite,Colorless,21
+171,FO,946.38,Gengar,Psychic,54
+172,FO,666.61,Haunter,Psychic,37
+173,FO,314.54,Hitmonlee,Fighting,42
+174,FO,227.61,Hypno,Psychic,57
+175,FO,277.41,Kabutops,Fighting,43
+176,FO,232.08,Lapras,Water,58
+177,FO,66.59,Magneton,Lightning,37
+178,FO,738.64,Moltres,Fire,41
+179,FO,832.82,Muk,Grass,35
+180,FO,411.17,Raichu,Lightning,33
+181,FO,258.51,Zapdos,Lightning,47
+182,FO,249.48,Aerodactyl,Fighting,58
+183,FO,191.75,Articuno,Water,66
+184,FO,261.55,Ditto,Colorless,37
+185,FO,294.97,Dragonite,Colorless,56
+186,FO,98.20,Gengar,Psychic,29
+187,FO,336.83,Haunter,Psychic,49
+188,FO,436.88,Hitmonlee,Fighting,36
+189,FO,851.94,Hypno,Psychic,62
+190,FO,319.28,Kabutops,Fighting,33
+191,FO,337.47,Lapras,Water,43
+192,FO,932.91,Magneton,Lightning,65
+193,FO,681.08,Moltres,Fire,49
+194,FO,655.11,Muk,Grass,53
+195,FO,930.85,Raichu,Lightning,45
+196,FO,529.83,Zapdos,Lightning,48
+197,FO,931.65,Arbok,Grass,57
+198,FO,910.66,Cloyster,Water,59
+199,FO,202.72,Gastly,Psychic,31
+200,FO,344.27,Golbat,Grass,44
+201,FO,391.60,Golduck,Water,39
+202,FO,691.70,Golem,Fighting,39
+203,FO,673.59,Graveler,Fighting,32
+204,FO,168.29,Kingler,Water,41
+205,FO,863.97,Magmar,Fire,43
+206,FO,821.20,Omastar,Water,50
+207,FO,187.70,Sandslash,Fighting,59
+208,FO,515.99,Seadra,Water,50
+209,FO,878.86,Slowbro,Psychic,46
+210,FO,339.74,Tentacruel,Water,50
+211,FO,264.90,Weezing,Grass,53
+212,FO,144.83,Ekans,Grass,36
+213,FO,217.49,Geodude,Fighting,37
+214,FO,210.96,Grimer,Grass,46
+215,FO,66.33,Horsea,Water,37
+216,FO,659.41,Kabuto,Fighting,58
+217,FO,237.33,Krabby,Water,36
+218,FO,133.28,Omanyte,Water,37
+219,FO,211.53,Psyduck,Water,39
+220,FO,202.46,Shellder,Water,34
+221,FO,458.23,Slowpoke,Psychic,54
+222,FO,612.74,Tentacool,Water,40
+223,FO,119.91,Zubat,Grass,40
+224,FO,499.87,Mr. Fuji,T,57
+225,FO,39.57,Energy Search,T,52
+226,FO,812.00,Gambler,T,41
+227,FO,67.99,Recycle,T,34
+228,FO,196.93,Mysterious Fossil,T,53
+229,BS2,532.88,Alakazam,Psychic,44
+230,BS2,447.03,Blastoise,Water,55
+231,BS2,583.61,Chansey,Colorless,37
+232,BS2,743.25,Charizard,Fire,32
+233,BS2,660.92,Clefable,Colorless,43
+234,BS2,497.39,Clefairy,Colorless,40
+235,BS2,729.87,Gyarados,Water,53
+236,BS2,742.11,Hitmonchan,Fighting,61
+237,BS2,658.72,Magneton,Lightning,33
+238,BS2,809.61,Mewtwo,Psychic,52
+239,BS2,192.96,Nidoking,Grass,43
+240,BS2,3.52,Nidoqueen,Grass,57
+241,BS2,469.67,Ninetales,Fire,47
+242,BS2,371.87,Pidgeot,Colorless,35
+243,BS2,948.53,Poliwrath,Water,45
+244,BS2,472.25,Raichu,Lightning,51
+245,BS2,736.75,Scyther,Grass,27
+246,BS2,314.08,Venusaur,Grass,39
+247,BS2,938.98,Wigglytuff,Colorless,44
+248,BS2,71.89,Zapdos,Lightning,42
+249,BS2,279.33,Beedrill,Grass,54
+250,BS2,604.34,Dragonair,Colorless,30
+251,BS2,215.72,Dugtrio,Fighting,39
+252,BS2,517.41,Electabuzz,Lightning,56
+253,BS2,419.79,Electrode,Lightning,47
+254,BS2,798.76,Kangaskhan,Colorless,41
+255,BS2,736.48,Mr. Mime,Psychic,41
+256,BS2,221.12,Pidgeotto,Colorless,41
+257,BS2,543.98,Pinsir,Grass,66
+258,BS2,447.28,Snorlax,Colorless,47
+259,BS2,325.02,Venomoth,Grass,55
+260,BS2,306.43,Victreebel,Grass,44
+261,BS2,963.33,Arcanine,Fire,47
+262,BS2,353.90,Butterfree,Grass,42
+263,BS2,644.55,Charmeleon,Fire,44
+264,BS2,814.96,Dewgong,Water,41
+265,BS2,141.87,Dodrio,Colorless,34
+266,BS2,167.13,Dratini,Colorless,60
+267,BS2,688.37,Exeggutor,Grass,36
+268,BS2,197.01,Farfetch'd,Colorless,56
+269,BS2,636.07,Fearow,Colorless,43
+270,BS2,310.11,Growlithe,Fire,35
+271,BS2,668.46,Haunter,Psychic,38
+272,BS2,263.52,Ivysaur,Grass,29
+273,BS2,239.50,Jynx,Psychic,33
+274,BS2,644.33,Kadabra,Psychic,59
+275,BS2,150.75,Kakuna,Grass,52
+276,BS2,503.69,Lickitung,Colorless,48
+277,BS2,209.18,Machoke,Fighting,46
+278,BS2,93.86,Magikarp,Water,62
+279,BS2,934.20,Magmar,Fire,52
+280,BS2,120.59,Marowak,Fighting,46
+281,BS2,182.21,Nidorina,Grass,52
+282,BS2,347.57,Nidorino,Grass,46
+283,BS2,129.13,Parasect,Grass,46
+284,BS2,42.03,Persian,Colorless,50
+285,BS2,354.20,Poliwhirl,Water,47
+286,BS2,269.72,Raticate,Colorless,51
+287,BS2,487.88,Rhydon,Fighting,35
+288,BS2,317.97,Seaking,Water,40
+289,BS2,537.40,Seel,Water,36
+290,BS2,734.97,Tauros,Colorless,47
+291,BS2,296.45,Wartortle,Water,61
+292,BS2,784.10,Weepinbell,Grass,37
+293,BS2,732.54,Abra,Psychic,52
+294,BS2,795.13,Bellsprout,Grass,51
+295,BS2,967.97,Bulbasaur,Grass,46
+296,BS2,505.29,Caterpie,Grass,33
+297,BS2,651.90,Charmander,Fire,31
+298,BS2,41.91,Cubone,Fighting,28
+299,BS2,3.37,Diglett,Fighting,43
+300,BS2,538.34,Doduo,Colorless,61
+301,BS2,747.56,Drowzee,Psychic,31
+302,BS2,184.19,Exeggcute,Grass,51
+303,BS2,215.04,Gastly,Psychic,61
+304,BS2,228.05,Goldeen,Water,47
+305,BS2,306.07,Jigglypuff,Colorless,42
+306,BS2,653.36,Machop,Fighting,47
+307,BS2,444.18,Magnemite,Lightning,41
+308,BS2,519.51,Meowth,Colorless,45
+309,BS2,69.81,Metapod,Grass,50
+310,BS2,359.67,Nidoran?,Grass,42
+311,BS2,400.99,Nidoran?,Grass,49
+312,BS2,738.64,Onix,Fighting,47
+313,BS2,307.83,Paras,Grass,47
+314,BS2,664.81,Pidgey,Colorless,46
+315,BS2,101.23,Pikachu,Lightning,43
+316,BS2,256.73,Poliwag,Water,43
+317,BS2,630.04,Rattata,Colorless,48
+318,BS2,350.60,Rhyhorn,Fighting,59
+319,BS2,976.20,Sandshrew,Fighting,36
+320,BS2,185.85,Spearow,Colorless,53
+321,BS2,545.37,Squirtle,Water,38
+322,BS2,438.36,Starmie,Water,38
+323,BS2,631.98,Staryu,Water,48
+324,BS2,756.95,Tangela,Grass,60
+325,BS2,137.51,Venonat,Grass,52
+326,BS2,178.17,Voltorb,Lightning,45
+327,BS2,261.73,Vulpix,Fire,43
+328,BS2,976.45,Weedle,Grass,49
+329,BS2,653.55,Computer Search,T,53
+330,BS2,639.83,Imposter Professor Oak,T,53
+331,BS2,563.06,Item Finder,T,43
+332,BS2,489.14,Lass,T,42
+333,BS2,18.99,Pokémon Breeder,T,61
+334,BS2,912.16,Pokémon Trader,T,29
+335,BS2,233.11,Scoop Up,T,49
+336,BS2,527.13,Super Energy Removal,T,57
+337,BS2,401.52,Defender,T,49
+338,BS2,844.32,Energy Retrieval,T,43
+339,BS2,934.66,Full Heal,T,60
+340,BS2,104.39,Maintenance,T,32
+341,BS2,375.54,PlusPower,T,42
+342,BS2,454.07,Pokémon Center,T,36
+343,BS2,850.62,Pokédex,T,39
+344,BS2,423.21,Professor Oak,T,58
+345,BS2,156.99,Super Potion,T,60
+346,BS2,3.86,Bill,T,34
+347,BS2,568.66,Energy Removal,T,50
+348,BS2,830.38,Gust of Wind,T,41
+349,BS2,504.99,Poké Ball,T,42
+350,BS2,591.79,Potion,T,50
+351,BS2,599.67,Switch,T,59
+352,BS2,687.36,Double Colorless Energy,E,52
+353,BS2,507.91,Fighting Energy,E,52
+354,BS2,278.73,Fire Energy,E,46
+355,BS2,37.22,Grass Energy,E,49
+356,BS2,673.86,Lightning Energy,E,50
+357,BS2,757.11,Psychic Energy,E,52
+358,BS2,721.89,Water Energy,E,36
+359,TR,363.08,Dark Alakazam,Psychic,37
+360,TR,757.80,Dark Arbok,Grass,40
+361,TR,231.48,Dark Blastoise,Water,18
+362,TR,970.33,Dark Charizard,Fire,36
+363,TR,484.38,Dark Dragonite,Colorless,37
+364,TR,508.95,Dark Dugtrio,Fighting,36
+365,TR,104.93,Dark Golbat,Grass,34
+366,TR,205.59,Dark Gyarados,Water,45
+367,TR,221.38,Dark Hypno,Psychic,44
+368,TR,405.36,Dark Machamp,Fighting,53
+369,TR,129.60,Dark Magneton,Lightning,44
+370,TR,290.77,Dark Slowbro,Psychic,56
+371,TR,922.97,Dark Vileplume,Grass,32
+372,TR,940.53,Dark Weezing,Grass,39
+373,TR,588.07,Here Comes Team Rocket!,T,31
+374,TR,214.66,Rocket's Sneak Attack,T,60
+375,TR,530.22,Rainbow Energy,E,58
+376,TR,975.82,Dark Alakazam,Psychic,39
+377,TR,76.37,Dark Arbok,Grass,46
+378,TR,711.22,Dark Blastoise,Water,54
+379,TR,419.40,Dark Charizard,Fire,42
+380,TR,830.02,Dark Dragonite,Colorless,39
+381,TR,302.03,Dark Dugtrio,Fighting,40
+382,TR,620.53,Dark Golbat,Grass,46
+383,TR,925.48,Dark Gyarados,Water,57
+384,TR,294.79,Dark Hypno,Psychic,29
+385,TR,336.16,Dark Machamp,Fighting,48
+386,TR,228.44,Dark Magneton,Lightning,29
+387,TR,86.92,Dark Slowbro,Psychic,47
+388,TR,407.97,Dark Vileplume,Grass,44
+389,TR,267.30,Dark Weezing,Grass,61
+390,TR,818.55,Dark Charmeleon,Fire,53
+391,TR,269.27,Dark Dragonair,Colorless,38
+392,TR,285.81,Dark Electrode,Lightning,50
+393,TR,891.41,Dark Flareon,Fire,26
+394,TR,397.94,Dark Gloom,Grass,17
+395,TR,374.35,Dark Golduck,Water,50
+396,TR,469.24,Dark Jolteon,Lightning,55
+397,TR,604.26,Dark Kadabra,Psychic,54
+398,TR,143.89,Dark Machoke,Fighting,44
+399,TR,325.05,Dark Muk,Grass,57
+400,TR,837.77,Dark Persian,Colorless,44
+401,TR,688.96,Dark Primeape,Fighting,32
+402,TR,689.96,Dark Rapidash,Fire,55
+403,TR,809.74,Dark Vaporeon,Water,52
+404,TR,318.82,Dark Wartortle,Water,44
+405,TR,307.72,Magikarp,Water,56
+406,TR,260.66,Porygon,Colorless,47
+407,TR,482.30,Abra,Psychic,55
+408,TR,661.68,Charmander,Fire,57
+409,TR,398.40,Dark Raticate,Colorless,28
+410,TR,804.48,Diglett,Fighting,38
+411,TR,983.88,Dratini,Colorless,32
+412,TR,294.95,Drowzee,Psychic,46
+413,TR,90.99,Eevee,Colorless,38
+414,TR,610.01,Ekans,Grass,28
+415,TR,583.65,Grimer,Grass,39
+416,TR,158.76,Koffing,Grass,46
+417,TR,147.14,Machop,Fighting,65
+418,TR,688.57,Magnemite,Lightning,47
+419,TR,663.08,Mankey,Fighting,40
+420,TR,479.77,Meowth,Colorless,40
+421,TR,499.16,Oddish,Grass,50
+422,TR,514.36,Ponyta,Fire,35
+423,TR,246.49,Psyduck,Water,59
+424,TR,122.86,Rattata,Colorless,25
+425,TR,351.43,Slowpoke,Psychic,39
+426,TR,264.75,Squirtle,Water,52
+427,TR,479.41,Voltorb,Lightning,37
+428,TR,742.71,Zubat,Grass,47
+429,TR,274.52,Here Comes Team Rocket!,T,48
+430,TR,269.06,Rocket's Sneak Attack,T,50
+431,TR,400.70,The Boss's Way,T,45
+432,TR,901.72,Challenge!,T,39
+433,TR,704.06,Digger,T,55
+434,TR,169.43,Imposter Oak's Revenge,T,47
+435,TR,543.49,Nightly Garbage Run,T,40
+436,TR,211.14,Goop Gas Attack,T,52
+437,TR,367.83,Sleep!,T,33
+438,TR,637.16,Rainbow Energy,E,35
+439,TR,653.79,Full Heal Energy,E,51
+440,TR,35.98,Potion Energy,E,45
+441,TR,101.49,Dark Raichu,Lightning,30
+442,G1,673.78,Blaine's Moltres,Fire,55
+443,G1,52.52,Brock's Rhydon,Fighting,47
+444,G1,618.10,Erika's Clefable,Colorless,39
+445,G1,309.99,Erika's Dragonair,Colorless,49
+446,G1,824.75,Erika's Vileplume,Grass,41
+447,G1,311.08,Lt. Surge's Electabuzz,Lightning,43
+448,G1,470.53,Lt. Surge's Fearow,Colorless,46
+449,G1,465.17,Lt. Surge's Magneton,Lightning,37
+450,G1,361.51,Misty's Seadra,Water,45
+451,G1,238.07,Misty's Tentacruel,Water,51
+452,G1,177.98,Rocket's Hitmonchan,Fighting,47
+453,G1,534.51,Rocket's Moltres,Fire,57
+454,G1,951.17,Rocket's Scyther,Grass,31
+455,G1,71.78,Sabrina's Gengar,Psychic,47
+456,G1,682.75,Brock,T,49
+457,G1,934.90,Erika,T,40
+458,G1,112.71,Lt. Surge,T,53
+459,G1,733.85,Misty,T,38
+460,G1,630.25,The Rocket's Trap,T,51
+461,G1,112.45,Brock's Golem,Fighting,41
+462,G1,962.99,Brock's Onix,Fighting,61
+463,G1,409.30,Brock's Rhyhorn,Fighting,48
+464,G1,311.61,Brock's Sandslash,Fighting,46
+465,G1,57.76,Brock's Zubat,Grass,35
+466,G1,16.89,Erika's Clefairy,Colorless,47
+467,G1,777.43,Erika's Victreebel,Grass,48
+468,G1,595.62,Lt. Surge's Electabuzz,Lightning,31
+469,G1,135.96,Lt. Surge's Raichu,Lightning,53
+470,G1,422.37,Misty's Cloyster,Water,54
+471,G1,761.15,Misty's Goldeen,Water,49
+472,G1,22.38,Misty's Poliwrath,Water,57
+473,G1,206.40,Misty's Tentacool,Water,56
+474,G1,714.70,Rocket's Snorlax,Colorless,35
+475,G1,488.88,Sabrina's Venomoth,Grass,39
+476,G1,910.38,Blaine's Growlithe,Fire,48
+477,G1,40.02,Blaine's Kangaskhan,Colorless,33
+478,G1,979.71,Blaine's Magmar,Fire,46
+479,G1,298.44,Brock's Geodude,Fighting,50
+480,G1,447.80,Brock's Golbat,Grass,37
+481,G1,564.37,Brock's Graveler,Fighting,47
+482,G1,337.60,Brock's Lickitung,Colorless,47
+483,G1,432.40,Erika's Dratini,Colorless,62
+484,G1,810.80,Erika's Exeggcute,Grass,42
+485,G1,53.71,Erika's Exeggutor,Grass,34
+486,G1,271.31,Erika's Gloom,Grass,39
+487,G1,64.59,Erika's Gloom,Grass,28
+488,G1,680.54,Erika's Oddish,Grass,48
+489,G1,575.53,Erika's Weepinbell,Grass,30
+490,G1,142.98,Erika's Weepinbell,Grass,64
+491,G1,626.58,Lt. Surge's Magnemite,Lightning,43
+492,G1,580.55,Lt. Surge's Raticate,Colorless,47
+493,G1,943.00,Lt. Surge's Spearow,Colorless,50
+494,G1,924.18,Misty's Poliwhirl,Water,46
+495,G1,801.87,Misty's Psyduck,Water,59
+496,G1,311.77,Misty's Seaking,Water,35
+497,G1,648.92,Misty's Starmie,Water,31
+498,G1,4.89,Misty's Tentacool,Water,48
+499,G1,556.36,Sabrina's Haunter,Psychic,28
+500,G1,671.19,Sabrina's Jynx,Psychic,30
+501,G1,951.10,Sabrina's Slowbro,Psychic,50
+502,G1,440.23,Blaine's Charmander,Fire,46
+503,G1,883.88,Blaine's Growlithe,Fire,47
+504,G1,510.18,Blaine's Ponyta,Fire,32
+505,G1,884.75,Blaine's Tauros,Colorless,35
+506,G1,190.04,Blaine's Vulpix,Fire,31
+507,G1,596.69,Brock's Geodude,Fighting,35
+508,G1,613.31,Brock's Mankey,Fighting,43
+509,G1,252.56,Brock's Mankey,Fighting,49
+510,G1,176.74,Brock's Onix,Fighting,53
+511,G1,747.80,Brock's Rhyhorn,Fighting,35
+512,G1,940.01,Brock's Sandshrew,Fighting,43
+513,G1,283.74,Brock's Sandshrew,Fighting,46
+514,G1,148.61,Brock's Vulpix,Fire,58
+515,G1,938.76,Brock's Zubat,Grass,45
+516,G1,725.72,Erika's Bellsprout,Grass,47
+517,G1,891.35,Erika's Bellsprout,Grass,27
+518,G1,684.09,Erika's Exeggcute,Grass,51
+519,G1,816.54,Erika's Oddish,Grass,42
+520,G1,56.53,Erika's Tangela,Grass,31
+521,G1,601.29,Lt. Surge's Magnemite,Lightning,51
+522,G1,662.25,Lt. Surge's Pikachu,Lightning,57
+523,G1,841.11,Lt. Surge's Rattata,Colorless,39
+524,G1,148.75,Lt. Surge's Spearow,Colorless,39
+525,G1,305.00,Lt. Surge's Voltorb,Lightning,35
+526,G1,673.19,Misty's Goldeen,Water,45
+527,G1,271.95,Misty's Horsea,Water,51
+528,G1,792.08,Misty's Poliwag,Water,51
+529,G1,9.65,Misty's Seel,Water,37
+530,G1,82.03,Misty's Shellder,Water,40
+531,G1,872.55,Misty's Staryu,Water,35
+532,G1,693.95,Sabrina's Abra,Psychic,35
+533,G1,188.17,Sabrina's Drowzee,Psychic,29
+534,G1,293.99,Sabrina's Gastly,Psychic,39
+535,G1,13.64,Sabrina's Mr. Mime,Psychic,49
+536,G1,528.13,Sabrina's Slowpoke,Psychic,51
+537,G1,374.65,Sabrina's Venonat,Grass,40
+538,G1,894.45,Blaine's Quiz #1,T,51
+539,G1,18.18,Brock,T,55
+540,G1,581.53,Charity,T,51
+541,G1,676.76,Erika,T,44
+542,G1,452.47,Lt. Surge,T,41
+543,G1,982.42,Misty,T,52
+544,G1,964.36,No Removal Gym,T,50
+545,G1,774.06,The Rocket's Training Gym,T,50
+546,G1,454.50,Blaine's Last Resort,T,52
+547,G1,293.53,Brock's Training Method,T,47
+548,G1,525.43,Celadon City Gym,T,47
+549,G1,869.09,Cerulean City Gym,T,49
+550,G1,85.86,Erika's Maids,T,45
+551,G1,769.22,Erika's Perfume,T,44
+552,G1,346.73,Good Manners,T,49
+553,G1,649.18,Lt. Surge's Treaty,T,47
+554,G1,891.31,Minion of Team Rocket,T,31
+555,G1,792.70,Misty's Wrath,T,50
+556,G1,875.89,Pewter City Gym,T,54
+557,G1,472.82,Recall,T,49
+558,G1,552.43,Sabrina's ESP,T,43
+559,G1,533.84,Secret Mission,T,40
+560,G1,332.00,Tickling Machine,T,56
+561,G1,325.94,Vermilion City Gym,T,44
+562,G1,995.97,Blaine's Gamble,T,35
+563,G1,264.92,Energy Flow,T,59
+564,G1,269.78,Misty's Duel,T,46
+565,G1,323.52,Narrow Gym,T,37
+566,G1,443.22,Sabrina's Gaze,T,52
+567,G1,227.76,Trash Exchange,T,56
+568,G1,66.64,Fighting Energy,E,40
+569,G1,773.98,Fire Energy,E,45
+570,G1,833.57,Grass Energy,E,30
+571,G1,746.27,Lightning Energy,E,64
+572,G1,845.36,Psychic Energy,E,41
+573,G1,445.83,Water Energy,E,39
+574,G2,662.86,Blaine's Arcanine,Fire,38
+575,G2,472.23,Blaine's Charizard,Fire,40
+576,G2,296.22,Brock's Ninetales,Fire,41
+577,G2,272.82,Erika's Venusaur,Grass,51
+578,G2,141.68,Giovanni's Gyarados,Water,61
+579,G2,905.76,Giovanni's Machamp,Fighting,57
+580,G2,985.60,Giovanni's Nidoking,Grass,49
+581,G2,958.51,Giovanni's Persian,Colorless,54
+582,G2,597.81,Koga's Beedrill,Grass,27
+583,G2,634.48,Koga's Ditto,Colorless,34
+584,G2,779.63,Lt. Surge's Raichu,Lightning,32
+585,G2,885.38,Misty's Golduck,Water,72
+586,G2,637.89,Misty's Gyarados,Water,56
+587,G2,991.73,Rocket's Mewtwo,Psychic,35
+588,G2,609.41,Rocket's Zapdos,Lightning,44
+589,G2,366.98,Sabrina's Alakazam,Psychic,59
+590,G2,324.41,Blaine,T,35
+591,G2,294.00,Giovanni,T,51
+592,G2,890.62,Koga,T,36
+593,G2,664.53,Sabrina,T,42
+594,G2,713.55,Blaine's Ninetales,Fire,45
+595,G2,139.90,Brock's Dugtrio,Fighting,37
+596,G2,22.86,Giovanni's Nidoqueen,Grass,52
+597,G2,791.75,Giovanni's Pinsir,Grass,43
+598,G2,255.92,Koga's Arbok,Grass,50
+599,G2,923.83,Koga's Muk,Grass,54
+600,G2,156.16,Koga's Pidgeotto,Colorless,47
+601,G2,298.57,Lt. Surge's Jolteon,Lightning,59
+602,G2,228.25,Sabrina's Gengar,Psychic,39
+603,G2,860.59,Sabrina's Golduck,Water,38
+604,G2,327.89,Blaine's Charmeleon,Fire,43
+605,G2,628.08,Blaine's Dodrio,Colorless,50
+606,G2,624.69,Blaine's Rapidash,Fire,43
+607,G2,943.74,Brock's Graveler,Fighting,49
+608,G2,39.71,Brock's Primeape,Fighting,37
+609,G2,317.80,Brock's Sandslash,Fighting,46
+610,G2,992.69,Brock's Vulpix,Fire,44
+611,G2,636.67,Erika's Bellsprout,Grass,45
+612,G2,80.05,Erika's Bulbasaur,Grass,46
+613,G2,688.98,Erika's Clefairy,Colorless,49
+614,G2,566.56,Erika's Ivysaur,Grass,33
+615,G2,86.44,Giovanni's Machoke,Fighting,53
+616,G2,77.58,Giovanni's Meowth,Colorless,55
+617,G2,597.48,Giovanni's Nidorina,Grass,57
+618,G2,395.05,Giovanni's Nidorino,Grass,66
+619,G2,124.44,Koga's Golbat,Grass,25
+620,G2,113.42,Koga's Kakuna,Grass,49
+621,G2,136.77,Koga's Koffing,Grass,44
+622,G2,841.44,Koga's Pidgey,Colorless,46
+623,G2,596.81,Koga's Weezing,Grass,38
+624,G2,143.12,Lt. Surge's Eevee,Colorless,43
+625,G2,492.85,Lt. Surge's Electrode,Lightning,44
+626,G2,74.31,Lt. Surge's Raticate,Colorless,47
+627,G2,536.46,Misty's Dewgong,Water,45
+628,G2,128.04,Sabrina's Haunter,Psychic,31
+629,G2,354.86,Sabrina's Hypno,Psychic,50
+630,G2,375.81,Sabrina's Jynx,Psychic,58
+631,G2,25.29,Sabrina's Kadabra,Psychic,49
+632,G2,285.23,Sabrina's Mr. Mime,Psychic,57
+633,G2,757.67,Blaine's Charmander,Fire,46
+634,G2,224.69,Blaine's Doduo,Colorless,48
+635,G2,920.38,Blaine's Growlithe,Fire,45
+636,G2,697.55,Blaine's Mankey,Fighting,38
+637,G2,19.85,Blaine's Ponyta,Fire,48
+638,G2,340.26,Blaine's Rhyhorn,Fighting,38
+639,G2,789.25,Blaine's Vulpix,Fire,43
+640,G2,951.54,Brock's Diglett,Fighting,58
+641,G2,172.40,Brock's Geodude,Fighting,51
+642,G2,671.66,Erika's Jigglypuff,Colorless,49
+643,G2,570.92,Erika's Oddish,Grass,33
+644,G2,280.54,Erika's Paras,Grass,47
+645,G2,531.25,Giovanni's Machop,Fighting,26
+646,G2,156.49,Giovanni's Magikarp,Water,40
+647,G2,326.31,Giovanni's Meowth,Colorless,40
+648,G2,458.04,Giovanni's Nidoran F,Grass,56
+649,G2,848.63,Giovanni's Nidoran M,Grass,46
+650,G2,504.02,Koga's Ekans,Grass,32
+651,G2,898.94,Koga's Grimer,Grass,51
+652,G2,642.37,Koga's Koffing,Grass,36
+653,G2,915.11,Koga's Pidgey,Colorless,39
+654,G2,19.67,Koga's Tangela,Grass,42
+655,G2,640.85,Koga's Weedle,Grass,49
+656,G2,106.91,Koga's Zubat,Grass,37
+657,G2,481.85,Lt. Surge's Pikachu,Lightning,47
+658,G2,882.26,Lt. Surge's Rattata,Colorless,48
+659,G2,869.90,Lt. Surge's Voltorb,Lightning,49
+660,G2,403.57,Misty's Horsea,Water,59
+661,G2,232.30,Misty's Magikarp,Water,60
+662,G2,727.69,Misty's Poliwag,Water,39
+663,G2,863.68,Misty's Psyduck,Water,44
+664,G2,117.32,Misty's Seel,Water,51
+665,G2,779.80,Misty's Staryu,Water,43
+666,G2,649.32,Sabrina's Abra,Psychic,45
+667,G2,263.28,Sabrina's Abra,Psychic,41
+668,G2,84.91,Sabrina's Drowzee,Psychic,63
+669,G2,511.05,Sabrina's Gastly,Psychic,41
+670,G2,681.56,Sabrina's Gastly,Psychic,53
+671,G2,876.87,Sabrina's Porygon,Colorless,35
+672,G2,709.84,Sabrina's Psyduck,Water,63
+673,G2,679.04,Blaine,T,47
+674,G2,684.26,Brock's Protection,T,37
+675,G2,9.82,Chaos Gym,T,35
+676,G2,754.56,Erika's Kindness,T,35
+677,G2,177.23,Giovanni,T,50
+678,G2,428.52,Giovanni's Last Resort,T,43
+679,G2,893.39,Koga,T,62
+680,G2,866.08,Lt. Surge's Secret Plan,T,28
+681,G2,615.95,Misty's Wish,T,44
+682,G2,220.38,Resistance Gym,T,30
+683,G2,87.23,Sabrina,T,35
+684,G2,825.38,Blaine's Quiz #2,T,55
+685,G2,234.90,Blaine's Quiz #3,T,30
+686,G2,533.24,Cinnabar City Gym,T,45
+687,G2,699.30,Fuchsia City Gym,T,29
+688,G2,952.68,Koga's Ninja Trick,T,43
+689,G2,997.17,Master Ball,T,58
+690,G2,529.23,Max Revive,T,59
+691,G2,45.27,Misty's Tears,T,51
+692,G2,529.87,Rocket's Minefield Gym,T,42
+693,G2,551.73,Rocket's Secret Experiment,T,54
+694,G2,44.66,Sabrina's Psychic Control,T,67
+695,G2,873.79,Saffron City Gym,T,55
+696,G2,755.99,Viridian City Gym,T,57
+697,G2,263.86,Fervor,T,45
+698,G2,824.35,Transparent Walls,T,50
+699,G2,694.22,Warp Point,T,34
+700,G2,661.59,Fighting Energy,E,59
+701,G2,908.14,Fire Energy,E,59
+702,G2,576.47,Grass Energy,E,52
+703,G2,322.58,Lightning Energy,E,22
+704,G2,137.95,Psychic Energy,E,40
+705,G2,880.57,Water Energy,E,32
+706,N1,115.92,Ampharos,Lightning,35
+707,N1,455.31,Azumarill,Water,48
+708,N1,709.89,Bellossom,Grass,44
+709,N1,838.47,Feraligatr,Water,56
+710,N1,876.87,Feraligatr,Water,43
+711,N1,93.56,Heracross,Grass,42
+712,N1,481.11,Jumpluff,Grass,49
+713,N1,354.99,Kingdra,Water,48
+714,N1,884.30,Lugia,Colorless,63
+715,N1,133.56,Meganium,Grass,65
+716,N1,858.85,Meganium,Grass,51
+717,N1,379.48,Pichu,Lightning,49
+718,N1,965.42,Skarmory,Metal,28
+719,N1,791.31,Slowking,Psychic,43
+720,N1,160.13,Steelix,Metal,52
+721,N1,466.25,Togetic,Colorless,49
+722,N1,143.86,Typhlosion,Fire,49
+723,N1,700.79,Typhlosion,Fire,51
+724,N1,765.26,Metal Energy,E,38
+725,N1,367.58,Cleffa,Colorless,39
+726,N1,118.94,Donphan,Fighting,49
+727,N1,673.95,Elekid,Lightning,41
+728,N1,131.64,Magby,Fire,51
+729,N1,654.72,Murkrow,Darkness,42
+730,N1,970.11,Sneasel,Darkness,54
+731,N1,123.49,Aipom,Colorless,54
+732,N1,496.33,Ariados,Grass,40
+733,N1,283.28,Bayleef,Grass,46
+734,N1,35.26,Bayleef,Grass,34
+735,N1,695.59,Clefairy,Colorless,36
+736,N1,781.86,Croconaw,Water,50
+737,N1,496.59,Croconaw,Water,50
+738,N1,346.02,Electabuzz,Lightning,43
+739,N1,507.23,Flaaffy,Lightning,37
+740,N1,368.35,Furret,Colorless,57
+741,N1,38.70,Gloom,Grass,45
+742,N1,207.88,Granbull,Colorless,45
+743,N1,992.97,Lanturn,Lightning,45
+744,N1,852.35,Ledian,Grass,57
+745,N1,943.04,Magmar,Fire,42
+746,N1,105.63,Miltank,Colorless,47
+747,N1,561.76,Noctowl,Colorless,43
+748,N1,978.68,Phanpy,Fighting,51
+749,N1,865.57,Piloswine,Water,32
+750,N1,839.28,Quagsire,Water,31
+751,N1,692.69,Quilava,Fire,25
+752,N1,963.86,Quilava,Fire,36
+753,N1,758.41,Seadra,Water,59
+754,N1,109.92,Skiploom,Grass,47
+755,N1,539.51,Sunflora,Grass,37
+756,N1,700.46,Togepi,Colorless,37
+757,N1,929.94,Xatu,Psychic,43
+758,N1,469.82,Chikorita,Grass,59
+759,N1,797.88,Chikorita,Grass,38
+760,N1,872.70,Chinchou,Lightning,42
+761,N1,984.86,Cyndaquil,Fire,37
+762,N1,991.06,Cyndaquil,Fire,48
+763,N1,25.32,Girafarig,Psychic,49
+764,N1,562.50,Gligar,Fighting,55
+765,N1,261.09,Hoothoot,Colorless,43
+766,N1,66.22,Hoppip,Grass,45
+767,N1,110.36,Horsea,Water,47
+768,N1,230.92,Ledyba,Grass,61
+769,N1,181.28,Mantine,Water,41
+770,N1,678.19,Mareep,Lightning,50
+771,N1,991.83,Marill,Water,47
+772,N1,169.16,Natu,Psychic,47
+773,N1,561.95,Oddish,Grass,38
+774,N1,781.55,Onix,Fighting,43
+775,N1,131.58,Pikachu,Lightning,25
+776,N1,110.62,Sentret,Colorless,48
+777,N1,901.58,Shuckle,Grass,56
+778,N1,205.33,Slowpoke,Psychic,45
+779,N1,750.30,Snubbull,Colorless,36
+780,N1,331.26,Spinarak,Grass,41
+781,N1,542.98,Stantler,Colorless,42
+782,N1,543.33,Sudowoodo,Fighting,57
+783,N1,15.53,Sunkern,Grass,64
+784,N1,951.49,Swinub,Water,54
+785,N1,258.56,Totodile,Water,47
+786,N1,407.74,Totodile,Water,37
+787,N1,1.55,Wooper,Water,51
+788,N1,699.77,Arcade Game,T,48
+789,N1,234.33,Ecogym,T,29
+790,N1,385.27,Energy Charge,T,49
+791,N1,437.44,Focus Band,T,65
+792,N1,875.81,Mary,T,43
+793,N1,8.36,PokéGear,T,64
+794,N1,4.72,Super Energy Retrieval,T,48
+795,N1,421.29,Time Capsule,T,44
+796,N1,244.15,Bill's Teleporter,T,41
+797,N1,950.82,Card-Flip Game,T,51
+798,N1,958.69,Gold Berry,T,43
+799,N1,922.90,Miracle Berry,T,58
+800,N1,600.44,New Pokédex,T,46
+801,N1,31.50,Professor Elm,T,58
+802,N1,662.62,Sprout Tower,T,55
+803,N1,314.40,Super Scoop Up,T,45
+804,N1,340.35,Berry,T,40
+805,N1,136.92,Double Gust,T,56
+806,N1,116.67,Moo-Moo Milk,T,43
+807,N1,984.65,Pokémon March,T,27
+808,N1,796.36,Super Rod,T,50
+809,N1,251.10,Darkness Energy,E,32
+810,N1,944.30,Recycle Energy,E,50
+811,N1,784.92,Fighting Energy,E,52
+812,N1,211.21,Fire Energy,E,59
+813,N1,340.88,Grass Energy,E,36
+814,N1,83.18,Lightning Energy,E,61
+815,N1,754.09,Psychic Energy,E,51
+816,N1,203.12,Water Energy,E,33
+817,N2,709.79,Espeon,Psychic,39
+818,N2,332.40,Forretress,Metal,38
+819,N2,479.56,Hitmontop,Fighting,46
+820,N2,722.29,Houndoom,Darkness,45
+821,N2,167.34,Houndour,Fire,35
+822,N2,24.31,Kabutops,Water,32
+823,N2,448.72,Magnemite,Metal,43
+824,N2,49.63,Politoed,Water,36
+825,N2,817.62,Poliwrath,Fighting,38
+826,N2,591.71,Scizor,Metal,57
+827,N2,770.68,Smeargle,Colorless,48
+828,N2,860.05,Tyranitar,Darkness,45
+829,N2,744.14,Umbreon,Darkness,61
+830,N2,119.54,Unown A,Psychic,53
+831,N2,90.72,Ursaring,Colorless,46
+832,N2,484.48,Wobbuffet,Psychic,33
+833,N2,568.39,Yanma,Grass,45
+834,N2,681.64,Beedrill,Grass,38
+835,N2,96.34,Butterfree,Grass,33
+836,N2,503.55,Espeon,Psychic,56
+837,N2,62.49,Forretress,Metal,46
+838,N2,371.92,Hitmontop,Fighting,57
+839,N2,474.99,Houndoom,Darkness,53
+840,N2,283.90,Houndour,Fire,55
+841,N2,353.48,Kabutops,Water,45
+842,N2,780.45,Magnemite,Metal,38
+843,N2,202.78,Politoed,Water,45
+844,N2,184.94,Poliwrath,Fighting,50
+845,N2,687.17,Scizor,Metal,50
+846,N2,182.04,Smeargle,Colorless,55
+847,N2,596.18,Tyranitar,Darkness,48
+848,N2,881.51,Umbreon,Darkness,43
+849,N2,922.83,Unown A,Psychic,48
+850,N2,760.60,Ursaring,Colorless,47
+851,N2,821.97,Wobbuffet,Psychic,38
+852,N2,61.37,Yanma,Grass,57
+853,N2,417.93,Corsola,Water,49
+854,N2,564.61,Eevee,Colorless,36
+855,N2,997.33,Houndour,Darkness,54
+856,N2,759.85,Igglybuff,Colorless,29
+857,N2,750.01,Kakuna,Grass,38
+858,N2,1.68,Metapod,Grass,39
+859,N2,254.14,Omastar,Fighting,49
+860,N2,813.59,Poliwhirl,Water,48
+861,N2,186.08,Pupitar,Fighting,38
+862,N2,35.75,Scyther,Grass,46
+863,N2,129.26,Unown D,Psychic,60
+864,N2,55.57,Unown F,Psychic,21
+865,N2,11.95,Unown M,Psychic,46
+866,N2,5.00,Unown N,Psychic,25
+867,N2,371.15,Unown U,Psychic,29
+868,N2,340.10,Xatu,Psychic,34
+869,N2,739.22,Caterpie,Grass,31
+870,N2,391.25,Dunsparce,Colorless,48
+871,N2,182.84,Hoppip,Grass,35
+872,N2,68.07,Kabuto,Water,42
+873,N2,91.24,Larvitar,Fighting,52
+874,N2,698.98,Mareep,Lightning,41
+875,N2,133.83,Natu,Psychic,39
+876,N2,301.69,Omanyte,Fighting,35
+877,N2,131.93,Pineco,Grass,49
+878,N2,360.06,Poliwag,Water,67
+879,N2,133.92,Sentret,Colorless,52
+880,N2,629.84,Spinarak,Grass,50
+881,N2,573.95,Teddiursa,Colorless,31
+882,N2,539.39,Tyrogue,Fighting,24
+883,N2,334.82,Unown E,Psychic,50
+884,N2,717.69,Unown I,Psychic,35
+885,N2,728.24,Unown O,Psychic,18
+886,N2,850.92,Weedle,Grass,47
+887,N2,43.48,Wooper,Water,40
+888,N2,257.94,Fossil Egg,T,39
+889,N2,459.01,Hyper Devolution Spray,T,42
+890,N2,237.75,Ruin Wall,T,55
+891,N2,159.81,Energy Ark,T,44
+892,N3,319.10,Ampharos,Lightning,52
+893,N3,301.20,Blissey,Colorless,40
+894,N3,142.66,Celebi,Psychic,33
+895,N3,694.85,Crobat,Grass,38
+896,N3,804.91,Delibird,Colorless,40
+897,N3,784.55,Entei,Fire,44
+898,N3,940.62,Ho-Oh,Fire,49
+899,N3,564.00,Houndoom,Darkness,51
+900,N3,576.84,Jumpluff,Grass,38
+901,N3,95.41,Magneton,Metal,24
+902,N3,626.29,Misdreavus,Psychic,32
+903,N3,790.74,Porygon2,Colorless,44
+904,N3,228.94,Raikou,Lightning,36
+905,N3,108.78,Suicune,Water,49
+906,N3,581.52,Aerodactyl,Fighting,51
+907,N3,304.60,Celebi,Grass,54
+908,N3,993.46,Entei,Fire,53
+909,N3,499.08,Ho-Oh,Colorless,40
+910,N3,406.18,Kingdra,Water,48
+911,N3,154.54,Lugia,Psychic,42
+912,N3,215.49,Raichu,Lightning,51
+913,N3,759.31,Raikou,Lightning,55
+914,N3,594.62,Skarmory,Metal,45
+915,N3,344.80,Sneasel,Darkness,48
+916,N3,835.91,Starmie,Psychic,52
+917,N3,840.92,Sudowoodo,Fighting,65
+918,N3,801.83,Suicune,Water,39
+919,N3,725.43,Flaaffy,Lightning,51
+920,N3,92.62,Golbat,Grass,54
+921,N3,98.01,Graveler,Fighting,48
+922,N3,661.53,Jynx,Water,54
+923,N3,931.64,Lanturn,Lightning,47
+924,N3,930.75,Magcargo,Fire,44
+925,N3,882.37,Octillery,Water,60
+926,N3,88.50,Parasect,Grass,58
+927,N3,969.85,Piloswine,Fighting,49
+928,N3,487.64,Seaking,Water,39
+929,N3,920.61,Stantler,Colorless,40
+930,N3,78.60,Unown B,Psychic,40
+931,N3,266.10,Unown Y,Psychic,50
+932,N3,949.22,Aipom,Colorless,33
+933,N3,173.40,Chinchou,Lightning,35
+934,N3,785.21,Farfetch'd,Colorless,56
+935,N3,14.12,Geodude,Fighting,34
+936,N3,29.95,Goldeen,Water,43
+937,N3,874.26,Murkrow,Darkness,41
+938,N3,242.91,Paras,Grass,36
+939,N3,733.34,Quagsire,Water,57
+940,N3,430.46,Qwilfish,Water,38
+941,N3,92.36,Remoraid,Water,64
+942,N3,555.98,Shuckle,Fighting,45
+943,N3,817.25,Skiploom,Grass,47
+944,N3,334.29,Slugma,Fire,46
+945,N3,542.84,Smoochum,Psychic,50
+946,N3,788.99,Snubbull,Colorless,40
+947,N3,250.31,Staryu,Water,45
+948,N3,266.32,Swinub,Fighting,54
+949,N3,168.68,Unown K,Psychic,49
+950,N3,636.45,Zubat,Grass,32
+951,N3,338.05,Balloon Berry,T,47
+952,N3,399.62,Healing Field,T,52
+953,N3,325.18,Pokémon Breeder Fields,T,55
+954,N3,318.65,Rocket's Hideout,T,42
+955,N3,967.31,Old Rod,T,53
+956,N3,805.23,Shining Gyarados,Water,49
+957,N3,965.24,Shining Magikarp,Water,50

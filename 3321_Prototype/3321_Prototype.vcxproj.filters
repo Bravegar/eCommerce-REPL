@@ -52,7 +52,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\CardData.csv">
+    <None Include="cards.csv">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
