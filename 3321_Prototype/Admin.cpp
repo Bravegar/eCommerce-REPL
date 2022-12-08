@@ -1,5 +1,6 @@
 #include "Admin.h"
 #include <iostream>
+#include <string>
 
 void Admin::AdminManageUser(int select)
 {
