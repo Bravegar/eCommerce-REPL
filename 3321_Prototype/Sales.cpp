@@ -42,4 +42,4 @@ void Sales::printAll()
 		<< "Sale number - " << getSaleNumber() << endl
 		<< "Customer ID - " << getCustomerID() << endl
 		<< "Seller ID - " << getSellerID() << endl;
-}
+}	

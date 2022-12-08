@@ -21,5 +21,5 @@ public:
 	void setCustomerID(int user_input);
 	int getSellerID();
 	void setSellerID(int user_input);
-	void static printAll();
+	void printAll();
 };
