@@ -25,6 +25,7 @@
 		 std::cout << "4. Add New Card for Sale" << std::endl;
 		 std::cout << "5. Display All Cards for Sale" << std::endl;
 		 std::cout << "6. Display All Users" << std::endl;
+		 std::cout << "7. Display Cart" << std::endl;
 		 std::cout << "9. For Admin Commands" << std::endl;
 		 std::cout << "0. Quit" << std::endl;
 		 std::cin >> this->option;
@@ -139,7 +140,41 @@ void Menu::single_card_display(int selection, std::vector<Card> cards)
 	std::cout << "1. Purchase" << std::endl;
 	std::cout << "2. Main Menu" << std::endl;
 	std::cin >> select;
+	
+	if (select == 1) {
+		cart.push_back(cards[selection]);
+		std::cout << "Card added to cart" << std::endl;
+	}
 }
+void Menu::display_cart() {
+
+	double total = 0;
+	for (int i = 0; i < this->cart.size(); i++)
+	{
+		std::cout << i + 1 << ". ";
+		std::cout << cart[i].getPokemonName() << " : $" << cart[i].getPrice() << std::endl;
+		total += cart[i].getPrice();
+	}
+	std::cout << "Your total is : $" << total << std::endl;
+	std::cout << "Would you like to check out? (y/n)" << std::endl;
+	
+	std::string choice;
+	std:: cin >> choice;
+
+	if (choice == "y") {
+		std::cout << "Please enter your payment information" << std::endl;
+		std::cout << "Card number:" << std::endl;
+		std::cin >> choice;
+		std::cout << "Expiration Date:" << std::endl;
+		std::cin >> choice;
+		std::cout << "Security Code:" << std::endl;
+		std::cin >> choice;
+		std::cout << "Name on Card:" << std::endl;
+		std::cin >> choice;
+		std::cout << "Thank you for your purchase!" << std::endl;
+	}
+}
+
 void Menu::init_cards()
 {
 	std::fstream infile;
