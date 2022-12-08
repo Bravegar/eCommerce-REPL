@@ -10,6 +10,7 @@ class Menu
 	std::vector<Card> cardList;
 	std::vector<User> userList;
 	std::vector<User> adminList;
+	std::vector<
 	
 	bool is_admin;
 
