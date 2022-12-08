@@ -6,5 +6,5 @@ class Admin
         int selection;
         
 public:
-        void ManageUser(int);
+        void AdminManageUser(int);
 };
