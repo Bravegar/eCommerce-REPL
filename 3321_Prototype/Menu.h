@@ -17,8 +17,9 @@ public:
 	void single_card_display(int, std::vector<Card>);
 	void init_cards();
 	void addCard();
-	std::vector<Card> filterCardList();
+	std::vector<Card> FilterCardListByPrice();
 	void displayCardList(std::vector<Card>);
 	std::vector<Card> FilterCardListByName();
+	std::vector<Card> FilterCardListByType();
 };
 

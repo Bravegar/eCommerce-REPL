@@ -61,5 +61,8 @@
     <None Include="cards.csv">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="users.csv">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
