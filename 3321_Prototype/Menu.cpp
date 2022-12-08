@@ -90,6 +90,9 @@ void Menu::display_menu_option(int option)
 	case 6:
 		display_all_users();
 		break;
+	case 7:
+		display_cart();
+		break;
 	case 9:
 		if (user_is_admin())
 		{
