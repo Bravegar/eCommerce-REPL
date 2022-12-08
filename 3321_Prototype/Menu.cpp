@@ -243,9 +243,10 @@ void Menu::create_new_user()
 	}
 	userList.push_back(User(fName, lName, email, address, userName, password, phoneNumber));
 	std::fstream iFile;
-	iFile.open("users.csv");
-	iFile << "\n" << fName << lName << email << address << userName << password << phoneNumber;
+	iFile.open("users.csv", std::ios::app);
+	iFile << fName << "," << lName << "," << email << "," << address << "," << userName << "," << password << "," << phoneNumber << "\n";
 	iFile.close();
+	display_login_menu();
 }
 bool Menu::user_login(std::string user, std::string pass)
 {
