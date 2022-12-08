@@ -19,11 +19,15 @@ public:
 	void display_all_users();
 	void single_card_display(int, std::vector<Card>);
 	void init_cards();
-	void init_users();
 	void addCard();
 	std::vector<Card> FilterCardListByPrice();
 	void displayCardList(std::vector<Card>);
 	std::vector<Card> FilterCardListByName();
 	std::vector<Card> FilterCardListByType();
+	void display_login_menu();
+	bool check_user_exists(std::string userName);
+	void init_user_list();
+	bool user_login(std::string, std::string);
+	void create_new_user();
 };
 
