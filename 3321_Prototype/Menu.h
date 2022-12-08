@@ -9,6 +9,7 @@ class Menu
 	int menuSize;
 	std::vector<Card> cardList;
 	std::vector<User> userList;
+	std::vector<Card> cart;
 	std::vector<std::string> adminList = { "brave" };
 	User user;
 	bool is_admin;
@@ -21,6 +22,7 @@ public:
 	void display_all_cards();
 	void display_all_users();
 	void single_card_display(int, std::vector<Card>);
+	void display_cart();
 	void init_cards();
 	void addCard();
 	std::vector<Card> FilterCardListByPrice();
