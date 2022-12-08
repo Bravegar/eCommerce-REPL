@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include "Card.h"
+#include "User.h"
 class Menu
 {
 	int option;

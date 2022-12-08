@@ -5,7 +5,9 @@ int main()
 {
 	Menu menu;
 	menu.init_cards();
-	menu.display_main_menu();
+	menu.init_user_list();
+	menu.display_login_menu();
+	//menu.display_main_menu();
 
 	return 0;
 }
