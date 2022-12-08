@@ -381,9 +381,8 @@ void Menu::display_login_menu()
 	}
 
 }
-	}
 
-}
+
 bool Menu::user_is_admin()
 {
 	std::string user, pass;

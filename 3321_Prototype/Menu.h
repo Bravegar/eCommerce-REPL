@@ -10,11 +10,7 @@ class Menu
 	std::vector<Card> cardList;
 	std::vector<User> userList;
 	std::vector<Card> cart;
-	std::vector<std::string> adminList = { "brave" };
-	User user;
 	std::vector<User> adminList;
-	std::vector<
-	
 	bool is_admin;
 
 public:
