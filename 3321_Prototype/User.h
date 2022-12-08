@@ -9,7 +9,7 @@ class User
 private:
 	std::string fName, lName, address,
 		email, username, password;
-	int phone;
+	std::string phone;
 	double sellerRating, buyerRating;
 	bool banStatus;
 public:
@@ -27,7 +27,7 @@ public:
 		buyerRating = -1;
 		banStatus = false;
 	}
-	User(std::string, std::string, std::string, std::string, std::string, std::string, int);
+	User(std::string, std::string, std::string, std::string, std::string, std::string, std::string);
 	//============ accessor functions
 	std::string getFName();
 	std::string getLName();
@@ -35,7 +35,7 @@ public:
 	std::string getAddress();
 	std::string getUsername();
 	std::string getPassword();
-	int getPhone();
+	std::string getPhone();
 	double getSellerRating();
 	double getBuyerRating();
 	bool getBanStatus();
@@ -43,7 +43,7 @@ public:
 	void setFName(std::string user_input);
 	void setLName(std::string user_input);
 	void setAddress(std::string user_input);
-	void setPhone(int user_input);
+	void setPhone(std::string user_input);
 	void setEmail(std::string user_input);
 	void setSellerRating(double user_input);
 	void setBuyerRating(double user_input);

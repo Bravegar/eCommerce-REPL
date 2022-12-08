@@ -1,6 +1,6 @@
 #include "User.h"
 
-User::User(std::string fN, std::string lN, std::string e, std::string a, std::string u, std::string p, int ph)
+User::User(std::string fN, std::string lN, std::string e, std::string a, std::string u, std::string p, std::string ph)
 {
 	fName = fN;
 	lName = lN;
@@ -45,7 +45,7 @@ std::string User::getPassword()
 	return password;
 }
 
-int User::getPhone()
+std::string User::getPhone()
 {
 	return phone;
 }
@@ -81,7 +81,7 @@ void User::setAddress(std::string user_input)
 	address = user_input;
 }
 
-void User::setPhone(int user_input)
+void User::setPhone(std::string user_input)
 {
 	phone = user_input;
 }

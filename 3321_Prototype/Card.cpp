@@ -72,6 +72,7 @@ std::string Card::getType()
 	return type;
 }
 
+
 void Card::display()
 {
 	std::cout << "Set ID: " << getSetID() << std::endl;

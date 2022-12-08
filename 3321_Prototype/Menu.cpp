@@ -1,4 +1,5 @@
 #include "Menu.h"
+#include "User.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -11,8 +12,37 @@
 	 this->option = 9999;
 	 this->quit = false;
 	 this->menuSize = 2;
+	 
+	 bool is_admin;
 }
-
+ void Menu::display_login_menu()
+ {
+	 std::string user, pass;
+	 std::cout << "**************************************************" << std::endl;
+	 std::cout << "Please enter your username...." << std::endl;
+	 std::cin >> user;
+	 std::cout << "Please enter your password...." << std::endl;
+	 std::cin >> pass;
+	 if (user_login(user,pass))
+	 {
+		 display_main_menu();
+	 }
+	 else
+	 {
+		 char confirmation;
+		 std::cout << "Would you like to create a new account?(Y/N)" << std::endl; //Error checking
+		 std::cin >> confirmation;
+		 if (confirmation == 'Y' || confirmation == 'y')
+		 {
+			 create_new_user();
+		 }
+		 else
+		 {
+			 display_login_menu();
+		 }
+	 }
+	 
+ }
  void Menu::display_main_menu()
  {
 	 while (!this->quit)
@@ -21,10 +51,9 @@
 		 std::cout << "Please select from the following options: " << std::endl;
 		 std::cout << "1. Filter Cards by Name" << std::endl;
 		 std::cout << "2. Filter Cards by Type" << std::endl;
-		 std::cout << "3. Filter Cards by Rarity" << std::endl;
-		 std::cout << "4. Filter Cards by Price" << std::endl;
-		 std::cout << "5. Add New Card for Sale" << std::endl;
-		 std::cout << "6. Display All Cards for Sale" << std::endl;
+		 std::cout << "3. Filter Cards by Price" << std::endl;
+		 std::cout << "4. Add New Card for Sale" << std::endl;
+		 std::cout << "5. Display All Cards for Sale" << std::endl;
 		 std::cout << "0. Quit" << std::endl;
 		 std::cin >> this->option;
 
@@ -49,17 +78,15 @@ void Menu::display_menu_option(int option)
 		displayCardList(FilterCardListByType());
 		break;
 	case 3:
-		std::cout << 3 << std::endl;
-		break;
-	case 4:
 		displayCardList(FilterCardListByPrice());
 		break;
-	case 5:
+	case 4:
 		addCard();
 		break;
-	case 6:
+	case 5:
 		display_all_cards();
 		break;
+
 
 	}
 }
@@ -190,4 +217,76 @@ std::vector<Card> Menu::FilterCardListByType()
 	}
 
 	return filteredList;
+}
+void Menu::create_new_user()
+{
+	std::string userName, password, fName, lName, email, address, phoneNumber;
+
+	std::cout << "What is your first name?" << std::endl;
+	std::cin >> fName;
+	std::cout << "What is your last name?" << std::endl;
+	std::cin >> lName;
+	std::cout << "What will be your email?" << std::endl;
+	std::cin >> email;
+	std::cout << "What is your address?" << std::endl;
+	std::cin >> address;
+	std::cout << "What will be your username?" << std::endl;
+	std::cin >> userName;
+	std::cout << "What will be your password?" << std::endl;
+	std::cin >> password;
+	std::cout << "What is your phone number?" << std::endl;
+	std::cin >> phoneNumber;
+	if (check_user_exists(userName))
+	{
+		std::cout << "Sorry this user already exists!" << std::endl;
+		return;
+	}
+	userList.push_back(User(fName, lName, email, address, userName, password, phoneNumber));
+	std::fstream iFile;
+	iFile.open("users.csv");
+	iFile << "\n" << fName << lName << email << address << userName << password << phoneNumber;
+	iFile.close();
+}
+bool Menu::user_login(std::string user, std::string pass)
+{
+	for (int i = 0; i < userList.size(); i++)
+	{
+		if (user == userList[i].getUsername() && pass == userList[i].getPassword())
+			return true;
+		else
+			return false;
+	}
+}
+void Menu::init_user_list()
+{
+	std::fstream iFile;
+	iFile.open("users.csv");
+	std::string buff;
+	while (getline(iFile, buff))
+	{
+		std::stringstream ss(buff);
+		std::string fName, lName, email, address, user, pass, phone;
+		getline(ss, fName, ',');
+		getline(ss, lName, ',');
+		getline(ss, email, ',');
+		getline(ss, address, ',');
+		getline(ss, user, ',');
+		getline(ss, pass, ',');
+		getline(ss, phone, ',');
+
+		userList.push_back(User(fName, lName, email, address, user, pass, phone));
+	}
+
+	return;
+	
+}
+bool Menu::check_user_exists(std::string userName)
+{
+	for (int i = 0; i < userList.size(); i++)
+	{
+		if (userName == userList[i].getUsername())
+			return true;
+		else
+			return false;
+	}
 }
