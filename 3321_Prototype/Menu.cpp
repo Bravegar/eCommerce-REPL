@@ -1,5 +1,4 @@
 #include "Menu.h"
-#include "User.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -12,37 +11,8 @@
 	 this->option = 9999;
 	 this->quit = false;
 	 this->menuSize = 2;
-	 
-	 bool is_admin;
 }
- void Menu::display_login_menu()
- {
-	 std::string user, pass;
-	 std::cout << "**************************************************" << std::endl;
-	 std::cout << "Please enter your username...." << std::endl;
-	 std::cin >> user;
-	 std::cout << "Please enter your password...." << std::endl;
-	 std::cin >> pass;
-	 if (user_login(user,pass))
-	 {
-		 display_main_menu();
-	 }
-	 else
-	 {
-		 char confirmation;
-		 std::cout << "Would you like to create a new account?(Y/N)" << std::endl; //Error checking
-		 std::cin >> confirmation;
-		 if (confirmation == 'Y' || confirmation == 'y')
-		 {
-			 create_new_user();
-		 }
-		 else
-		 {
-			 display_login_menu();
-		 }
-	 }
-	 
- }
+
  void Menu::display_main_menu()
  {
 	 while (!this->quit)
@@ -51,9 +21,11 @@
 		 std::cout << "Please select from the following options: " << std::endl;
 		 std::cout << "1. Filter Cards by Name" << std::endl;
 		 std::cout << "2. Filter Cards by Type" << std::endl;
-		 std::cout << "3. Filter Cards by Price" << std::endl;
-		 std::cout << "4. Add New Card for Sale" << std::endl;
-		 std::cout << "5. Display All Cards for Sale" << std::endl;
+		 std::cout << "3. Filter Cards by Rarity" << std::endl;
+		 std::cout << "4. Filter Cards by Price" << std::endl;
+		 std::cout << "5. Add New Card for Sale" << std::endl;
+		 std::cout << "6. Display All Cards for Sale" << std::endl;
+		 std::cout << "7. Display All Users" << std::endl;
 		 std::cout << "0. Quit" << std::endl;
 		 std::cin >> this->option;
 
@@ -78,16 +50,20 @@ void Menu::display_menu_option(int option)
 		displayCardList(FilterCardListByType());
 		break;
 	case 3:
-		displayCardList(FilterCardListByPrice());
+		std::cout << 3 << std::endl;
 		break;
 	case 4:
-		addCard();
+		displayCardList(FilterCardListByPrice());
 		break;
 	case 5:
+		addCard();
+		break;
+	case 6:
 		display_all_cards();
 		break;
-
-
+	case 7:
+		display_all_users();
+		break;
 	}
 }
 void Menu::display_all_cards()
@@ -103,6 +79,18 @@ void Menu::display_all_cards()
 	std::cin >> selection;
 	single_card_display(selection-1, cardList);
 }
+
+void Menu::display_all_users()
+{
+	int selection;
+	//Loops through all cards in cardList vector and displays them as selections.
+	for (int i = 0; i < this->userList.size(); i++)
+	{
+		std::cout << i + 1 << ". ";
+		std::cout << userList[i].getFName() << " " << userList[i].getLName() << std::endl;
+	}
+}
+
 void Menu::single_card_display(int selection, std::vector<Card> cards)
 {
 	int select;
@@ -137,7 +125,30 @@ void Menu::init_cards()
 		getline(test, numBeingSold, ',');
 		cardList.push_back(Card(setID, stoi(cardID), stod(price), name, type, stoi(numBeingSold)));
 	}
+	infile.close();
+}
 
+void Menu::init_users()
+{
+	std::fstream infile;
+	infile.open("users.csv");
+	std::string buff;
+	getline(infile, buff); //Used to clear headers for columns in users.csv file
+	//Loop to gather pokemon card data from file.
+	while (getline(infile, buff))
+	{
+		std::stringstream test(buff);
+		std::string fName, lName, address, email, username, password;
+		std::string ph;
+		getline(test, fName, ',');
+		getline(test, lName, ',');
+		getline(test, address, ',');
+		getline(test, email, ',');
+		getline(test, username, ',');
+		getline(test, password, ',');
+		getline(test, ph, ',');
+		userList.push_back(User(fName, lName, address, email, username, address, ph));
+	}
 }
 void Menu::addCard()
 {
@@ -217,6 +228,7 @@ std::vector<Card> Menu::FilterCardListByType()
 	}
 
 	return filteredList;
+<<<<<<< HEAD
 }
 void Menu::create_new_user()
 {
@@ -290,4 +302,6 @@ bool Menu::check_user_exists(std::string userName)
 		else
 			return false;
 	}
+=======
+>>>>>>> 028e8eaa06c88cc1789ac65c0ff2c75f38e92171
 }

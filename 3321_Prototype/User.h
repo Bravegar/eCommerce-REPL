@@ -22,7 +22,7 @@ public:
 		address = "";
 		username = "";
 		password = "";
-		phone = -1;
+		phone = "";
 		sellerRating = -1;
 		buyerRating = -1;
 		banStatus = false;
