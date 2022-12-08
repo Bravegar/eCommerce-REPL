@@ -11,6 +11,7 @@
 	 this->option = 9999;
 	 this->quit = false;
 	 this->menuSize = 2;
+	 is_admin = false;
 }
 
  void Menu::display_main_menu()
@@ -39,7 +40,7 @@
 	 {
 		 std::cout << "Insufficient Privileges!" << std::endl;
 		 display_main_menu();
-	 }
+	}
 	 int selection;
 	 std::cout << "0. Return to main menu" << std::endl;
 	 std::cout << "1. Display All Users" << std::endl;
@@ -89,7 +90,7 @@ void Menu::display_menu_option(int option)
 		display_all_users();
 		break;
 	case 9:
-		if (is_admin)
+		if (user_is_admin())
 		{
 			display_admin_menu();
 		}
@@ -280,11 +281,6 @@ bool Menu::user_login(std::string user, std::string pass)
 	{
 		if (user == userList[i].getUsername() && pass == userList[i].getPassword())
 		{
-			for (int i = 0; i < adminList.size(); i++)
-			{
-				if (user == adminList[i])
-					is_admin == true;
-			}
 			return true;
 		}
 	}
@@ -320,6 +316,7 @@ bool Menu::check_user_exists(std::string userName)
 		if (userName == userList[i].getUsername())
 			return true;
 	}
+	return false;
 }
 void Menu::display_login_menu()
 {
@@ -348,4 +345,28 @@ void Menu::display_login_menu()
 		}
 	}
 
+}
+bool Menu::user_is_admin()
+{
+	std::string user, pass;
+	std::cout << "Enter username" << std::endl;
+	std::cin >> user;
+	std::cout << "Enter password" << std::endl;
+	std::cin >> pass;
+
+	for (int i = 0; i < adminList.size(); i++)
+	{
+		if (user == adminList[i].getUsername() && pass == adminList[i].getPassword())
+		{
+			is_admin = true;
+			return true;
+		}
+	}
+}
+void Menu::init_admin_list()
+{
+	adminList.push_back(User());
+	adminList[0].setUsername("brave");
+	adminList[0].setPassword("123");
+	
 }
