@@ -4,17 +4,10 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
-enum state {
-	main_menu = 0,
-	filter_specific_card,
-	filter_by_type,
-	filter_by_rarity,
-	filter_by_price
-};
 
  Menu::Menu()
 {
-	
+	//Initializer for Menu Class
 	 this->option = 9999;
 	 this->quit = false;
 	 this->menuSize = 2;
@@ -79,7 +72,7 @@ void Menu::display_all_cards()
 		std::cout << i+1 << ". ";
 		std::cout << cardList[i].getPokemonName() << " " << std::endl;
 	}
-	std::cout << "Please enter a selection..." << std::endl;
+	std::cout << "Please enter a selection..." << std::endl;	
 	std::cin >> selection;
 	single_card_display(selection-1);
 }
