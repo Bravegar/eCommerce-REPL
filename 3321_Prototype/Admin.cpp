@@ -1,7 +1,7 @@
 #include "Admin.h"
 #include <iostream>
 #include <string>
-
+/*
 void Admin::AdminManageUser(int select)
 {
   cout << "Enter (1) to update First name,\nEnter (2) to update Last name,\nEnter (3) to update Address info,\n"
@@ -32,3 +32,4 @@ void Admin::AdminManageUser(int select)
       cout << "Please enter a valid selection." << endl;
   }
     
+    */

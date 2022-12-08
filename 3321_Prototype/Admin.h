@@ -9,5 +9,5 @@ class Admin
         bool banStatus;
         
 public:
-        void AdminManageUser(int);
+     //   void AdminManageUser(int);
 };

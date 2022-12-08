@@ -19,7 +19,7 @@
 	 {
 		 std::cout << "********************************************" << std::endl;
 		 std::cout << "Please select from the following options: " << std::endl;
-		 std::cout << "1. Search for a Specific Card" << std::endl;
+		 std::cout << "1. Filter Cards by Name" << std::endl;
 		 std::cout << "2. Filter Cards by Type" << std::endl;
 		 std::cout << "3. Filter Cards by Rarity" << std::endl;
 		 std::cout << "4. Filter Cards by Price" << std::endl;
@@ -43,7 +43,7 @@ void Menu::display_menu_option(int option)
 		this->quit = true;
 		break;
 	case 1:
-		std::cout << 1 << std::endl;
+		displayCardList(FilterCardListByName());
 		break;
 	case 2:
 		std::cout << 2 << std::endl;
@@ -52,7 +52,7 @@ void Menu::display_menu_option(int option)
 		std::cout << 3 << std::endl;
 		break;
 	case 4:
-		std::cout << 4 << std::endl;
+		displayCardList(filterCardList());
 		break;
 	case 5:
 		addCard();
@@ -74,17 +74,17 @@ void Menu::display_all_cards()
 	}
 	std::cout << "Please enter a selection..." << std::endl;	
 	std::cin >> selection;
-	single_card_display(selection-1);
+	single_card_display(selection-1, cardList);
 }
-void Menu::single_card_display(int selection)
+void Menu::single_card_display(int selection, std::vector<Card> cards)
 {
 	int select;
-	if (selection >= cardList.size())
+	if (selection >= cards.size())
 	{
 		std::cout << "No data associated with that selection. Returning to main menu" << std::endl;
 		return;
 	}
-	cardList[selection].display();
+	cards[selection].display();
 	std::cout << "1. Purchase" << std::endl;
 	std::cout << "2. Main Menu" << std::endl;
 	std::cin >> select;
@@ -131,4 +131,47 @@ void Menu::addCard()
 	std::cout << "How many cards will you be selling?" << std::endl;
 	std::cin >> numToSell;
 	cardList.push_back(Card(setID, cardID, price, name, type, numToSell));
+}
+std::vector<Card> Menu::filterCardList()
+{
+	double minPrice, maxPrice;
+	std::cout << "Please enter a minimum price to search for..." << std::endl;
+	std::cin >> minPrice;
+	std::cout << "Please enter a maximum price to search for..." << std::endl;
+	std::cin >> maxPrice;
+	std::vector<Card> filteredList;
+	for (int i = 0; i < cardList.size(); i++)
+	{
+		if (cardList[i].getPrice() > minPrice && cardList[i].getPrice() < maxPrice) //Checks if price at cardList index i is above and below the min/max prices set by user input
+			filteredList.push_back(cardList[i]);
+	}
+
+	return filteredList;
+}
+void Menu::displayCardList(std::vector<Card> filteredList)
+{
+	int selection;
+	for (int i = 0; i < filteredList.size(); i++)
+	{
+		std::cout << i+1 << ". " << filteredList[i].getPokemonName() << std::endl; //Add an i to start at 1 when displaying to user.
+	}
+	std::cout << "Please enter a selection..." << std::endl;
+	std::cin >> selection;
+	single_card_display(selection - 1, filteredList); //Revert the 1 added to i to correctly select the proper index from vector
+}
+std::vector<Card> Menu::FilterCardListByName()
+{
+
+	std::string search;
+	std::cout << "Please enter a name to search for..." << std::endl;
+	std::cin >> search;
+	
+	std::vector<Card> filteredList;
+	for (int i = 0; i < cardList.size(); i++)
+	{
+		if (cardList[i].getPokemonName().find(search) != std::string::npos)
+			filteredList.push_back(cardList[i]);
+	}
+	
+	return filteredList;
 }

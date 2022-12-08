@@ -14,8 +14,11 @@ public:
 	void display_main_menu();
 	void display_menu_option(int);
 	void display_all_cards();
-	void single_card_display(int);
+	void single_card_display(int, std::vector<Card>);
 	void init_cards();
 	void addCard();
+	std::vector<Card> filterCardList();
+	void displayCardList(std::vector<Card>);
+	std::vector<Card> FilterCardListByName();
 };
 
