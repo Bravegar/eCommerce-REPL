@@ -153,6 +153,11 @@ void Menu::single_card_display(int selection, std::vector<Card> cards)
 void Menu::display_cart() {
 
 	double total = 0;
+	
+	if (cart.empty()) {
+		std::cout << "Your shopping cart is empty" << std::endl;
+		return;
+	}
 	for (int i = 0; i < this->cart.size(); i++)
 	{
 		std::cout << i + 1 << ". ";
@@ -176,6 +181,7 @@ void Menu::display_cart() {
 		std::cout << "Name on Card:" << std::endl;
 		std::cin >> choice;
 		std::cout << "Thank you for your purchase!" << std::endl;
+		cart.clear();
 	}
 }
 
