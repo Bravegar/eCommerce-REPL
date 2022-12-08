@@ -73,6 +73,7 @@ void Menu::display_menu_option(int option)
 void Menu::display_all_cards()
 {
 	int selection;
+	//Loops through all cards in cardList vector and displays them as selections.
 	for (int i = 0; i < this->cardList.size(); i ++ )
 	{
 		std::cout << i+1 << ". ";
@@ -85,6 +86,11 @@ void Menu::display_all_cards()
 void Menu::single_card_display(int selection)
 {
 	int select;
+	if (selection >= cardList.size())
+	{
+		std::cout << "No data associated with that selection. Returning to main menu" << std::endl;
+		return;
+	}
 	cardList[selection].display();
 	std::cout << "1. Purchase" << std::endl;
 	std::cout << "2. Main Menu" << std::endl;
@@ -95,7 +101,8 @@ void Menu::init_cards()
 	std::fstream infile;
 	infile.open("cards.csv");
 	std::string buff;
-	getline(infile, buff);
+	getline(infile, buff); //Used to clear headers for columns in cards.csv file
+	//Loop to gather pokemon card data from file.
 	while (getline(infile, buff))
 	{
 		std::stringstream test(buff);
@@ -108,7 +115,6 @@ void Menu::init_cards()
 		getline(test, name, ',');
 		getline(test, type, ',');
 		getline(test, numBeingSold, ',');
-		//infile >> cardID >> setID >> price >> name >> type >> numBeingSold;
 		cardList.push_back(Card(setID, stoi(cardID), stod(price), name, type, stoi(numBeingSold)));
 	}
 
