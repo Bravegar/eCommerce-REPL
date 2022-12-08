@@ -4,13 +4,14 @@
 
 
 
-Card::Card(std::string sID, int cID, double p, std::string n, std::string t)
+Card::Card(std::string sID, int cID, double p, std::string n, std::string t,int numToSell)
 {
 	setID = sID;
 	cardID = cID;
 	price = p;
 	pokemonName = n;
 	type = t;
+	cardsBeingSold = numToSell;
 }
 Card::Card(std::string name, double price)
 {

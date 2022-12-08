@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
+#include <sstream>
 enum state {
 	main_menu = 0,
 	filter_specific_card,
@@ -73,12 +75,12 @@ void Menu::display_all_cards()
 	int selection;
 	for (int i = 0; i < this->cardList.size(); i ++ )
 	{
-		std::cout << i << ". ";
+		std::cout << i+1 << ". ";
 		std::cout << cardList[i].getPokemonName() << " " << std::endl;
 	}
 	std::cout << "Please enter a selection..." << std::endl;
 	std::cin >> selection;
-	single_card_display(selection);
+	single_card_display(selection-1);
 }
 void Menu::single_card_display(int selection)
 {
@@ -90,15 +92,31 @@ void Menu::single_card_display(int selection)
 }
 void Menu::init_cards()
 {
-	for (int i = 0; i < 100; i++)
+	std::fstream infile;
+	infile.open("cards.csv");
+	std::string buff;
+	getline(infile, buff);
+	while (getline(infile, buff))
 	{
-		cardList.push_back(Card("name",20.00));
+		std::stringstream test(buff);
+		std::string setID, name, type;
+		std::string cardID, numBeingSold;
+		std::string price;
+		getline(test, cardID, ',');
+		getline(test, setID, ',');
+		getline(test, price, ',');
+		getline(test, name, ',');
+		getline(test, type, ',');
+		getline(test, numBeingSold, ',');
+		//infile >> cardID >> setID >> price >> name >> type >> numBeingSold;
+		cardList.push_back(Card(setID, stoi(cardID), stod(price), name, type, stoi(numBeingSold)));
 	}
+
 }
 void Menu::addCard()
 {
 	std::string setID;
-	int cardID;
+	int cardID, numToSell;
 	double price;
 	std::string name, type;
 	std::cout << "Please enter a card name..." << std::endl;
@@ -111,5 +129,7 @@ void Menu::addCard()
 	std::cin >> setID;
 	std::cout << "Please enter the cards Card ID" << std::endl;
 	std::cin >> cardID;
-	cardList.push_back(Card(setID, cardID, price, name, type));
+	std::cout << "How many cards will you be selling?" << std::endl;
+	std::cin >> numToSell;
+	cardList.push_back(Card(setID, cardID, price, name, type, numToSell));
 }

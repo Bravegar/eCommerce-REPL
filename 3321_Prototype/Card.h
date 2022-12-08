@@ -22,7 +22,7 @@ public:
 		pokemonName = "";
 		type = "";
 	}
-	Card(std::string, int, double, std::string, std::string);
+	Card(std::string, int, double, std::string, std::string, int);
 	Card(std::string, double );
 	//============ accessor functions
 	std::string getSetID();
