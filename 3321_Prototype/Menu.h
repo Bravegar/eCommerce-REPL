@@ -9,6 +9,9 @@ class Menu
 	int menuSize;
 	std::vector<Card> cardList;
 	std::vector<User> userList;
+	std::vector<std::string> adminList = { "brave" };
+	User user;
+	bool is_admin;
 
 public:
 
@@ -29,5 +32,7 @@ public:
 	void init_user_list();
 	bool user_login(std::string, std::string);
 	void create_new_user();
+	bool user_is_admin();
+	void display_admin_menu();
 };
 

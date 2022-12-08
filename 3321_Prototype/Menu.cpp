@@ -25,12 +25,17 @@
 		 std::cout << "4. Add New Card for Sale" << std::endl;
 		 std::cout << "5. Display All Cards for Sale" << std::endl;
 		 std::cout << "6. Display All Users" << std::endl;
+		 std::cout << "9. For Admin Commands" << std::endl;
 		 std::cout << "0. Quit" << std::endl;
 		 std::cin >> this->option;
 
 		 this->display_menu_option(this->option);
 
 	 }
+ }
+ void Menu::display_admin_menu()
+ {
+
  }
 void Menu::display_menu_option(int option)
 {
@@ -59,6 +64,16 @@ void Menu::display_menu_option(int option)
 		break;
 	case 6:
 		display_all_users();
+		break;
+	case 9:
+		if (is_admin)
+		{
+			display_admin_menu();
+		}
+		else
+		{
+			std::cout << "Sorry insufficient privileges!" << std::endl;
+		}
 		break;
 
 	}
@@ -241,7 +256,14 @@ bool Menu::user_login(std::string user, std::string pass)
 	for (int i = 0; i < userList.size(); i++)
 	{
 		if (user == userList[i].getUsername() && pass == userList[i].getPassword())
+		{
+			for (int i = 0; i < adminList.size(); i++)
+			{
+				if (user == adminList[i])
+					is_admin == true;
+			}
 			return true;
+		}
 	}
 	return false;
 }
