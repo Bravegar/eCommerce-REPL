@@ -46,13 +46,13 @@ void Menu::display_menu_option(int option)
 		displayCardList(FilterCardListByName());
 		break;
 	case 2:
-		std::cout << 2 << std::endl;
+		displayCardList(FilterCardListByType());
 		break;
 	case 3:
 		std::cout << 3 << std::endl;
 		break;
 	case 4:
-		displayCardList(filterCardList());
+		displayCardList(FilterCardListByPrice());
 		break;
 	case 5:
 		addCard();
@@ -132,7 +132,7 @@ void Menu::addCard()
 	std::cin >> numToSell;
 	cardList.push_back(Card(setID, cardID, price, name, type, numToSell));
 }
-std::vector<Card> Menu::filterCardList()
+std::vector<Card> Menu::FilterCardListByPrice()
 {
 	double minPrice, maxPrice;
 	std::cout << "Please enter a minimum price to search for..." << std::endl;
@@ -173,5 +173,21 @@ std::vector<Card> Menu::FilterCardListByName()
 			filteredList.push_back(cardList[i]);
 	}
 	
+	return filteredList;
+}
+std::vector<Card> Menu::FilterCardListByType()
+{
+
+	std::string search;
+	std::cout << "Please enter a type to search for..." << std::endl;
+	std::cin >> search;
+
+	std::vector<Card> filteredList;
+	for (int i = 0; i < cardList.size(); i++)
+	{
+		if (cardList[i].getType().find(search) != std::string::npos)
+			filteredList.push_back(cardList[i]);
+	}
+
 	return filteredList;
 }
