@@ -35,6 +35,29 @@
  }
  void Menu::display_admin_menu()
  {
+	 if (!is_admin)
+	 {
+		 std::cout << "Insufficient Privileges!" << std::endl;
+		 display_main_menu();
+	 }
+	 int selection;
+	 std::cout << "0. Return to main menu" << std::endl;
+	 std::cout << "1. Display All Users" << std::endl;
+	 std::cin >> selection;
+	 switch (selection)
+	 {
+	 default:
+		 display_admin_menu();
+		 break;
+	 case 0:
+		 display_main_menu();
+		 break;
+	 case 1:
+		 display_all_users();
+		 break;
+	 
+
+	 }
 
  }
 void Menu::display_menu_option(int option)
